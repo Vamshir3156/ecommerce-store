@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <input class="in" onkeyup="
+            reading(event);
+            ">
+        <p class="onweb"></p>
+
+    </body>
+    <script>
+        function reading(event){
+            const vam= document.querySelector('.in');
+            let cost=vam.value;
+            console.log(cost);
+            const kris= document.querySelector('.onweb');
+            kris.innerHTML=cost;
+            
+
+
+        }
+    </script>
+</html>
