@@ -28,3 +28,21 @@
   background-color: #f0a500;
   color: #222;
 }
+
+.login-btn {
+  padding: 8px 16px;
+  background-color: #f9a825;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-btn {
+  background-color: #007bff;
+}
+.nav-buttons {
+  display: flex;
+  align-items: center;
+  gap: 1rem; /* Adds space between Login and Cart */
+}
